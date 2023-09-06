@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full">
+    <div class="w-full main-element">
     <Navigation/>
         <slot>
 
@@ -14,5 +14,8 @@ import Navigation from '@/Components/Navigation.vue';
 </script>
 
 <style scoped>
+.main-element {
+    font-family: 'Courier New', Courier, monospace
+}
 
 </style>
