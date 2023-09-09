@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Fabada';
+    src: url('../js/fonts/Fabada-regular.ttf')
+    /* Môžete pridať ďalšie vlastnosti, ako napríklad font-weight, font-style atď. */
+}
+
+.specify-font {
+    font-family: Fabada;
+    font-weight: 600;
+}

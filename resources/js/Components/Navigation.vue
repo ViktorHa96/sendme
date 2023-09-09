@@ -1,7 +1,7 @@
 <template>
-    <div class="absolute top-0 left-0 w-full px-6 py-2 shadow-lg shadow-black flex flex-row justify-between">
+    <div class="specify-font absolute top-0 left-0 w-full px-6 py-2 shadow-lg shadow-black flex flex-row justify-between">
         <div class="flex place-self-start">
-            <Link href="/"></Link>
+            <Link href="/"><img class="w-16" src="../images/Logos/textlogo2small.png" alt=""></Link>
         </div>
         <div class="flex place-self-center gap-4">
             <Link href="">Úvod</Link>

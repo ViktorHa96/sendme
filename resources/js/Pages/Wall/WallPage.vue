@@ -2,6 +2,7 @@
     <Head title="Úvod"/>
     <AppLayout>
         <div class="main-background">
+            <img class="h-full" src="../../images/Pigeons/morePigeons4.png" alt="">
         </div>
     </AppLayout>
 </template>
