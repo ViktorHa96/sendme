@@ -2,7 +2,6 @@
     <Head title="Úvod"/>
     <AppLayout>
         <div class="main-background">
-
         </div>
     </AppLayout>
 </template>
@@ -15,10 +14,10 @@ import AppLayout from '../../Layouts/AppLayout.vue'
 
 <style scoped>
 .main-background {
-background: rgb(255,0,0);
-background: linear-gradient(90deg, rgb(255, 98, 98) 0%, rgba(255, 175, 175, 0.723) 45%, rgba(248,196,203,0.6560749299719888) 100%);
-widows: 100%;
-height: 100vb;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 4%, rgba(195,232,255,1) 49%, rgba(112,201,255,1) 100%);
+    width: 100%;
+    height: 100vh;
 }
 
 </style>
