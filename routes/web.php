@@ -18,3 +18,4 @@ use Inertia\Inertia;
 
 
 Route::get('/', [\App\Http\Controllers\WallController::class, 'index'])->name('wall');
+Route::get('/instruction', [\App\Http\Controllers\InstructionController::class, 'index'])->name('instruction');

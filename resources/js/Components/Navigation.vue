@@ -1,17 +1,17 @@
 <template>
-    <div class="specify-font absolute top-0 left-0 w-full px-6 py-2 shadow-lg shadow-black flex flex-row justify-between">
-        <div class="flex place-self-start">
+    <div class="specify-font fixed top-0 left-0 z-50 w-full px-6 py-2 shadow-lg bg-cyan-100 shadow-black flex flex-row justify-between place-items-center">
+        <div class="flex place-self-center">
             <Link href="/"><img class="w-16" src="../images/Logos/textlogo2small.png" alt=""></Link>
         </div>
-        <div class="flex place-self-center gap-4">
-            <Link href="">Úvod</Link>
-            <Link href="">Ako na to</Link>
-            <Link href="">Galéria</Link>
-            <Link href="">Vytvoriť poštu</Link>
+        <div class="flex place-items-center gap-2">
+            <Link class=" border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150  hover:border-cyan-300 rounded-md" href="/">Úvod</Link>
+            <Link class=" border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150  hover:border-cyan-300 rounded-md"  href="">Ako na to</Link>
+            <Link class=" border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150  hover:border-cyan-300 rounded-md"  href="">Galéria</Link>
+            <Link class="py-1 px-3 bg-[#ff948f] rounded-md text-white border-b-4 border-red-500 hover:border-b-0 hover:bg-[#f9675f] duration-100" href="">Vytvoriť poštu</Link>
         </div>
-        <div class="flex place-self-end gap-4">
-            <Link href="">Prihlásenie</Link>
-            <Link href="">Registrácia</Link>
+        <div class="flex place-items-center gap-2">
+            <Link class=" border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150  hover:border-cyan-300 rounded-md"  href="">Prihlásenie</Link>
+            <Link class="py-1 px-3 bg-[#ff948f] rounded-md text-white border-b-4 border-red-500 hover:border-b-0 hover:bg-[#f9675f] duration-100" href="">Registrácia</Link>
         </div>
     </div>
 </template>

@@ -1,15 +1,26 @@
 <template>
     <Head title="Úvod"/>
     <AppLayout>
-        <div class="main-background">
-            <img class="h-full" src="../../images/Pigeons/morePigeons4.png" alt="">
+        <div class="specify-font main-background flex flex-row w-full">
+            <div class="w-1/2">
+                <img class="my-20" src="../../images/Pigeons/morePigeons4.png" alt="">
+            </div>
+            <div class="my-20 w-1/2 mx-auto text-center flex place-items-center">
+                <div class="flex flex-col">
+                    <h1 class="text-4xl">Emócie v liste nesené na krídlach holuba.</h1>
+                    <img class="w-40 mx-auto mt-6" src="../../images/Logos/envelope2medium.png" alt="">
+                    <Link class="flex place-self-center text-xl py-2 px-4 mt-28 bg-[#ff948f] rounded-md text-white border-b-4 border-red-500 hover:border-transparent hover:bg-[#f9675f] duration-100" href="">Vytvoriť poštu</Link>
+                </div>
+            </div>
         </div>
+        <HowToSection/>
     </AppLayout>
 </template>
 
 <script setup lang="ts">
-import { Head } from '@inertiajs/vue3';
+import { Head, Link } from '@inertiajs/vue3';
 import AppLayout from '../../Layouts/AppLayout.vue'
+import HowToSection from './Components/HowToSection.vue'
 
 </script>
 
