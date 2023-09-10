@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full main-element">
+    <div class="w-full main-element mt-28">
     <Navigation/>
         <slot>
 

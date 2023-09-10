@@ -3,9 +3,9 @@
     <AppLayout>
         <div class="specify-font main-background flex flex-row w-full">
             <div class="w-1/2">
-                <img class="my-20" src="../../images/Pigeons/morePigeons4.png" alt="">
+                <img class="" src="../../images/Pigeons/morePigeons4.png" alt="">
             </div>
-            <div class="my-20 w-1/2 mx-auto text-center flex place-items-center">
+            <div class="w-1/2 mx-auto text-center flex place-items-center">
                 <div class="flex flex-col">
                     <h1 class="text-4xl">Emócie v liste nesené na krídlach holuba.</h1>
                     <img class="w-40 mx-auto mt-6" src="../../images/Logos/envelope2medium.png" alt="">
