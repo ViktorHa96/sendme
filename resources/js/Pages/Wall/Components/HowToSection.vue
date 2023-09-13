@@ -94,7 +94,7 @@ import route from 'ziggy-js';
 <style scoped>
 .howto-background {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
 }
 
 </style>
