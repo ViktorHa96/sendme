@@ -2,7 +2,7 @@
     <Head title="Úvod"/>
     <AppLayout>
         <div class="specify-font main-background flex flex-row w-full">
-            <div class="w-1/2 mt-28">
+            <div class="w-1/2">
                 <img class="" src="../../images/Pigeons/morePigeons4.png" alt="">
             </div>
             <div class="w-1/2 mx-auto text-center flex place-items-center">
@@ -15,6 +15,7 @@
         </div>
         <HowToSection/>
         <GallerySection/>
+        <BlogSection/>
     </AppLayout>
 </template>
 
@@ -23,6 +24,7 @@ import { Head, Link } from '@inertiajs/vue3';
 import AppLayout from '../../Layouts/AppLayout.vue'
 import HowToSection from './Components/HowToSection.vue'
 import GallerySection from './Components/GallerySection.vue';
+import BlogSection from './Components/BlogSection.vue';
 
 </script>
 
