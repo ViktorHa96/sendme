@@ -16,6 +16,8 @@
         <HowToSection/>
         <GallerySection/>
         <BlogSection/>
+        <GiftSection/>
+        <NewsSection/>
     </AppLayout>
 </template>
 
@@ -25,6 +27,8 @@ import AppLayout from '../../Layouts/AppLayout.vue'
 import HowToSection from './Components/HowToSection.vue'
 import GallerySection from './Components/GallerySection.vue';
 import BlogSection from './Components/BlogSection.vue';
+import GiftSection from './Components/GiftSection.vue';
+import NewsSection from './Components/NewsSection.vue'
 
 </script>
 
