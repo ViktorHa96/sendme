@@ -1,5 +1,5 @@
 <template>
-    <div class="specify-font gallery-background flex flex-row py-20">
+    <div class="specify-font blog-background flex flex-row py-20">
         <div class="w-1/2 float-left flex flex-col gap-8 justify-center place-items-center mx-auto">
             <h2 class="text-3xl mb-4">Z nášho blogu</h2>
             <Link href="/" class="flex flex-col w-2/3 gap-4 py-2 px-2 bg-slate-100 rounded-md shadow-lg shadow-black group hover:translate-y-0.5 duration-150">
@@ -69,7 +69,7 @@ import { Link } from '@inertiajs/vue3';
 </script>
 
 <style scoped>
-.-background {
+.blog-background {
     width: 100%;
     height: auto;
 }
