@@ -38,7 +38,8 @@ import { Link } from '@inertiajs/vue3';
     background: linear-gradient(180deg, rgb(62, 181, 255) 4%, rgb(146, 207, 245) 49%, rgb(62, 181, 255) 100%);
     width: 100%;
     height: 60vh;
-   border-radius: 6rem;
+   border-top-left-radius: 6rem;
+   border-top-right-radius: 6rem;
 }
 
 </style>

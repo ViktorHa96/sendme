@@ -1,5 +1,5 @@
 <template>
-    <div class="relative specify-font news-background flex flex-col gap-4 text-center place-items-center my-20">
+    <div class="relative specify-font news-background flex flex-col gap-4 text-center place-items-center py-20">
         <div>
             <h2 class="text-4xl">Novinky</h2>
         </div>
@@ -22,6 +22,7 @@
 
 <style scoped>
 .news-background {
+    background-color: rgba(255, 255, 255, 0.593);
     width: 100%;
     height: auto;
     position: relative;
@@ -35,7 +36,7 @@
 
 .newsImgLeft {
     position: absolute;
-    height: 60%;
+    height: 50%;
     margin-top: 2rem;
     margin-left: 1.5rem;
     left:0;
@@ -44,7 +45,7 @@
 }
 .newsImgRight {
     position: absolute;
-    height: 60%;
+    height: 50%;
     margin-top: 2rem;
     margin-right: 1.5rem;
     right:0;
