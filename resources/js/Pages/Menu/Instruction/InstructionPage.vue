@@ -1,9 +1,9 @@
 <template>
     <Head title="Ako na to" />
    <AppLayout>
-    <div class="specify-font howto-background flex flex-col text-center ">
+    <div class="specify-font relative z-20 howto-background flex flex-col text-center ">
     <div class="flex flex-col h-full gap-8 mb-10">
-        <div class="w-1/5 flex flex-col place-items-center border-b-2 border-r-2 border-gray-500 py-4 px-3 rounded-lg">
+        <div class="w-1/5 flex flex-col place-items-center border-b-2 border-r-2 border-gray-500 py-4 px-3 rounded-b-lg">
                 <div class="p-8 rounded-full bg-cyan-400">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-click" width="46" height="46" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -91,5 +91,10 @@ import AppLayout from '../../../Layouts/AppLayout.vue'
 </script>
 
 <style scoped>
+
+.howto-background {
+    width: 100%;
+    height: auto;
+}
 
 </style>

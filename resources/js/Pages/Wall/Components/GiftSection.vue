@@ -1,5 +1,5 @@
 <template>
-   <div class="specify-font gift-background flex flex-col text-center place-items-center">
+   <div class="specify-font relative z-20 gift-background flex flex-col text-center place-items-center">
     <div>
         <h2 class="text-4xl mt-14">Darčeky a doplnky</h2>
     </div>
@@ -34,8 +34,8 @@ import { Link } from '@inertiajs/vue3';
 
 <style scoped>
 .gift-background {
-    background-color: rgba(196, 213, 251, 0.477);
-    box-shadow: inset 0px 0px 30px 16px rgba(62,181,255,0.63);
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgb(62, 181, 255) 4%, rgb(146, 207, 245) 49%, rgb(62, 181, 255) 100%);
     width: 100%;
     height: 60vh;
    border-radius: 6rem;

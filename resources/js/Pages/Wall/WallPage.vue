@@ -1,7 +1,13 @@
 <template>
     <Head title="Úvod"/>
+        <div class="fixed z-10 w-full h-[100vh] top-0 left-0 flex flex-row opacity-10">
+        <img class="w-full object-cover" src="../../images/Blog/sectionBg8.jpeg" alt="">
+    </div>
+    <div class="fixed z-10 w-full h-[100vh] top-0 left-0 bg-cyan-400/20">
+
+    </div>
     <AppLayout>
-        <div class="specify-font main-background flex flex-row w-full">
+        <div class="specify-font relative z-20 main-background flex flex-row w-full">
             <div class="w-1/2">
                 <img class="" src="../../images/Pigeons/morePigeons4.png" alt="">
             </div>

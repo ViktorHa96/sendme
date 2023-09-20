@@ -1,5 +1,5 @@
 <template>
-   <div class="specify-font gallery-background flex flex-col text-center place-items-center">
+   <div class="specify-font relative z-20 gallery-background flex flex-col text-center place-items-center">
     <div>
         <h2 class="text-4xl mt-10">Naša galéria</h2>
     </div>
@@ -37,8 +37,9 @@ import { Link } from '@inertiajs/vue3';
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgb(62, 181, 255) 4%, rgb(146, 207, 245) 49%, rgb(62, 181, 255) 100%);
     width: 100%;
-    height: 93vh;
-   border-radius: 6rem;
+    height: 100vh;
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
 }
 
 </style>

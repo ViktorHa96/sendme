@@ -1,5 +1,5 @@
 <template>
-<div class="specify-font howto-background flex flex-col text-center place-items-center pt-20">
+<div class="specify-font relative z-20 howto-background flex flex-col text-center place-items-center pt-20">
     <div class="flex flex-row h-full gap-8">
         <div class="w-1/5 flex flex-col place-items-center">
             <div class="p-8 rounded-full bg-cyan-400 mb-6">
@@ -93,6 +93,7 @@ import route from 'ziggy-js';
 
 <style scoped>
 .howto-background {
+    background-color: rgba(255, 255, 255, 0.593);
     width: 100%;
     height: 60vh;
 }

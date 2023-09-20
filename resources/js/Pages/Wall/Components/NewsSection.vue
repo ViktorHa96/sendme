@@ -24,6 +24,8 @@
 .news-background {
     width: 100%;
     height: auto;
+    position: relative;
+    z-index: 20;
 }
 
 .banner-background {
