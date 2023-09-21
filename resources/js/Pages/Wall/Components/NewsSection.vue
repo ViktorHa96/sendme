@@ -22,7 +22,7 @@
 
 <style scoped>
 .news-background {
-    background-color: rgba(255, 255, 255, 0.593);
+    background-color: rgba(255, 255, 255, 0.928);
     width: 100%;
     height: auto;
     position: relative;

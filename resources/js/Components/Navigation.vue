@@ -1,5 +1,5 @@
 <template>
-    <div class="specify-font fixed top-0 left-0 z-50 w-full px-6 py-2 shadow-lg bg-cyan-100 shadow-black flex flex-row justify-between place-items-center">
+    <div class="specify-font relative z-50 w-full px-6 py-2 shadow-lg bg-cyan-100 shadow-black flex flex-row justify-between place-items-center">
         <div class="flex place-self-center">
             <Link :href="route('wall')"><img class="w-16" src="../images/Logos/textlogo2small.png" alt=""></Link>
         </div>

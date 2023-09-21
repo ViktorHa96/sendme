@@ -1,7 +1,10 @@
 <template>
-<div class="specify-font relative z-20 howto-background flex flex-col text-center place-items-center pt-20">
-    <div class="flex flex-row h-full gap-8">
-        <div class="w-1/5 flex flex-col place-items-center">
+<div class="specify-font relative z-20 howto-background flex flex-col text-center place-items-center pb-20">
+    <div>
+        <h2 class="text-4xl my-10">Ako na to</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 justify-center h-full gap-8">
+        <div class="flex flex-col place-items-center mx-auto">
             <div class="p-8 rounded-full bg-cyan-400 mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-click" width="46" height="46" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -16,7 +19,7 @@
             <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">1.</h1>
             <h1>Klikni na vytvoriť poštu</h1>
         </div>
-        <div class="w-1/5 flex flex-col place-items-center">
+        <div class="flex flex-col place-items-center mx-auto">
             <div class="p-8 rounded-full bg-cyan-400 mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book-upload" width="46" height="46" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -29,7 +32,7 @@
             <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">2.</h1>
             <h1>Vyber si zo stoviek návrhov dizajnov alebo nahraj svoj.</h1>
         </div>
-        <div class="w-1/5 flex flex-col place-items-center">
+        <div class="flex flex-col place-items-center mx-auto">
             <div class="p-8 rounded-full bg-cyan-400 mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-writing" width="46" height="46" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -39,9 +42,9 @@
                 </svg>
             </div>
             <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">3.</h1>
-            <h1>Vyber si zo stoviek textových veršov alebo si vytvor svoj.</h1>
+            <h1 class="w-full">Vyber si zo stoviek textových veršov alebo si vytvor svoj.</h1>
         </div>
-        <div class="w-1/5 flex flex-col place-items-center">
+        <div class="flex flex-col place-items-center mx-auto">
             <div class="p-8 rounded-full bg-cyan-400 mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-qrcode" width="46" height="46" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -62,7 +65,7 @@
             <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">4.</h1>
             <h1>Vyber si doplnky ku pošte ako QR kód na video, voňavý papier a unikátne darčeky.</h1>
         </div>
-        <div class="w-1/5 flex flex-col place-items-center">
+        <div class="flex flex-col place-items-center mx-auto">
             <div class="p-8 rounded-full bg-cyan-400 mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-link" width="46" height="46" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -80,7 +83,7 @@
     </div>
 
     <div class="flex place-items-center">
-        <Link class="flex place-self-center text-xl py-2 px-4 mb-10 bg-[#ff948f] rounded-md text-white border-b-4 border-red-500 hover:border-transparent hover:bg-[#f9675f] duration-100" :href="route('instruction')">Čítaj viac</Link>
+        <Link class="flex place-self-center text-xl py-2 px-4 mt-10 bg-[#ff948f] rounded-md text-white border-b-4 border-red-500 hover:border-transparent hover:bg-[#f9675f] duration-100" :href="route('instruction')">Čítaj viac</Link>
     </div>
 </div>
 </template>
@@ -93,9 +96,9 @@ import route from 'ziggy-js';
 
 <style scoped>
 .howto-background {
-    background-color: rgba(255, 255, 255, 0.593);
+    background-color: rgba(255, 255, 255, 0.928);
     width: 100%;
-    height: 60vh;
+    height: auto;
 }
 
 </style>
