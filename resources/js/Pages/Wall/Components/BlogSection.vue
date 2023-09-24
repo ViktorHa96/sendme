@@ -1,8 +1,8 @@
 <template>
-    <div class="specify-font blog-background flex flex-row py-20">
-        <div class="w-1/2 relative z-20 float-left flex flex-col gap-8 justify-center place-items-center mx-auto">
+    <div class="specify-font blog-background flex flex-col md:flex-row py-20">
+        <div class="w-full md:w-1/2 relative z-20 float-left flex flex-col gap-8 justify-center place-items-center mx-auto">
             <h2 class="text-3xl mb-4">Z nášho blogu</h2>
-            <Link href="/" class="flex flex-col w-2/3 gap-4 py-2 px-2 bg-slate-100 rounded-md shadow-lg shadow-black group hover:translate-y-0.5 duration-150">
+            <Link href="/" class="flex flex-col text-sm lg:text-base w-[90%] md:w-2/3 gap-4 py-2 px-2 bg-slate-100 rounded-md shadow-lg shadow-black group hover:translate-y-0.5 duration-150">
                 <img class="rounded-lg" src="../../../images/Blog/article1.jpeg" alt="">
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -10,7 +10,7 @@
                 <p class="text-[#fd837c] text-center">Čítaj viac</p>
             </Link>
 
-            <Link href="/" class="flex flex-col w-2/3 gap-4 py-2 px-2 bg-slate-100 rounded-md shadow-lg shadow-black group hover:translate-y-0.5 duration-150">
+            <Link href="/" class="flex flex-col w-[90%] md:w-2/3 gap-4 py-2 px-2 bg-slate-100 rounded-md shadow-lg shadow-black group hover:translate-y-0.5 duration-150">
                 <img class="rounded-lg" src="../../../images/Blog/article3.jpeg" alt="">
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -18,9 +18,9 @@
                 <p class="text-[#fd837c] text-center">Čítaj viac</p>
             </Link>
         </div>
-        <div class="w-1/2 relative z-20 float-right flex flex-col gap-8 mx-auto">
+        <div class="w-full md:w-1/2 relative z-20 float-right flex flex-col gap-8 mx-auto">
             <h2 class="text-3xl mt-10 mb-4 text-center">Recenzie od našich zákazníkov</h2>
-            <div class="flex flex-col w-2/3 gap-4 py-2 px-2 mx-auto bg-slate-100 rounded-lg shadow-lg shadow-black">
+            <div class="flex flex-col w-[90%] md:w-2/3 gap-4 py-2 px-2 mx-auto bg-slate-100 rounded-lg shadow-lg shadow-black">
                 <div class="flex flex-row gap-2 place-items-center text-black/50">
                     <h2 class="text-sm text-[#fd837c]">Janka</h2>
                     <em>12. 1. 2024</em>
@@ -30,7 +30,7 @@
                 </p>
             </div>
 
-            <div class="flex flex-col w-2/3 gap-4 py-2 px-2 mx-auto bg-slate-100 rounded-lg shadow-lg shadow-black">
+            <div class="flex flex-col w-[90%] md:w-2/3 gap-4 py-2 px-2 mx-auto bg-slate-100 rounded-lg shadow-lg shadow-black">
                 <div class="flex flex-row gap-2 place-items-center text-black/50">
                     <h2 class="text-sm text-[#fd837c]">Janka</h2>
                     <em>12. 1. 2024</em>
@@ -40,7 +40,7 @@
                 </p>
             </div>
 
-            <div class="flex flex-col w-2/3 gap-4 py-2 px-2 mx-auto bg-slate-100 rounded-lg shadow-lg shadow-black">
+            <div class="flex flex-col w-[90%] md:w-2/3 gap-4 py-2 px-2 mx-auto bg-slate-100 rounded-lg shadow-lg shadow-black">
                 <div class="flex flex-row gap-2 place-items-center text-black/50">
                     <h2 class="text-sm text-[#fd837c]">Janka</h2>
                     <em>12. 1. 2024</em>
@@ -50,7 +50,7 @@
                 </p>
             </div>
 
-            <div class="flex flex-col w-2/3 gap-4 py-2 px-2 mx-auto bg-slate-100 rounded-lg shadow-lg shadow-black">
+            <div class="flex flex-col w-[90%] md:w-2/3 gap-4 py-2 px-2 mx-auto bg-slate-100 rounded-lg shadow-lg shadow-black">
                 <div class="flex flex-row gap-2 place-items-center text-black/50">
                     <h2 class="text-sm text-[#fd837c]">Janka</h2>
                     <em>12. 1. 2024</em>

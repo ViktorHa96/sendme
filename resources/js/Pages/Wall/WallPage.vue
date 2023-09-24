@@ -41,7 +41,7 @@ import NewsSection from './Components/NewsSection.vue'
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 4%, rgba(195,232,255,1) 49%, rgba(112,201,255,1) 100%);
     width: 100%;
-    height: auto;
+    min-height: 100vh;
 }
 
 </style>

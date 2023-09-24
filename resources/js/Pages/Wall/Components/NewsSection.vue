@@ -3,9 +3,9 @@
         <div>
             <h2 class="text-4xl">Novinky</h2>
         </div>
-        <img class="newsImgLeft" src="../../../images/Pigeons/holub6.png" alt="">
-        <img class="newsImgRight" src="../../../images/Pigeons/holub7other.png" alt="">
-        <div class="relative z-20 w-3/5 h-auto place-items-center justify-center">
+        <img class="newsImgLeft hidden md:block w-1/5 h-auto" src="../../../images/Pigeons/holub6.png" alt="">
+        <img class="newsImgRight hidden md:block w-1/5 h-auto" src="../../../images/Pigeons/holub7other.png" alt="">
+        <div class="relative z-20 w-[90%] md:w-3/5  h-auto place-items-center justify-center">
             <div class="banner-background py-3 px-8 flex-col gap-3 rounded-3xl shadow-lg shadow-black">
                 <h2 class="text-2xl my-4">Pripravujeme používanie Umelej inteligencie</h2>
                 <p class="py-4">
@@ -36,18 +36,14 @@
 
 .newsImgLeft {
     position: absolute;
-    height: 50%;
     margin-top: 2rem;
-    margin-left: 1.5rem;
     left:0;
     top: 50%;
     transform: translateY(-50%)
 }
 .newsImgRight {
     position: absolute;
-    height: 50%;
     margin-top: 2rem;
-    margin-right: 1.5rem;
     right:0;
     top: 50%;
     transform: translateY(-50%)
