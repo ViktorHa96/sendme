@@ -6,8 +6,9 @@
         <div class="hidden md:flex flex-row justify-between place-items-center">
         <div class="flex place-items-center gap-2">
             <Link class=" border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150  hover:border-cyan-300 rounded-md" :href="route('wall')">Úvod</Link>
-            <Link class=" border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150  hover:border-cyan-300 rounded-md"  :href="route('instruction')">Ako na to</Link>
             <Link class=" border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150  hover:border-cyan-300 rounded-md"  :href="route('gallery')">Galéria</Link>
+            <Link class=" border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150  hover:border-cyan-300 rounded-md"  :href="route('blog')">Blog</Link>
+            <Link class=" border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150  hover:border-cyan-300 rounded-md"  :href="route('gift')">Darčeky</Link>
             <Link class="py-1 px-3 bg-[#ff948f] rounded-md text-white border-b-4 border-red-500 hover:border-b-0 hover:bg-[#f9675f] duration-100" href="">Vytvoriť poštu</Link>
         </div>
         <div class="flex place-items-center gap-2">

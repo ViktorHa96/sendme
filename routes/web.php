@@ -19,6 +19,9 @@ use Inertia\Inertia;
 
 Route::get('/', [\App\Http\Controllers\WallController::class, 'index'])->name('wall');
 Route::get('/instruction', [\App\Http\Controllers\InstructionController::class, 'index'])->name('instruction');
-Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index'])->name('gallery');
 Route::get('/login', [\App\Http\Controllers\UserController::class, 'indexLogin'])->name('login');
 Route::get('/register', [\App\Http\Controllers\UserController::class, 'indexRegister'])->name('register');
+
+Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index'])->name('gallery');
+Route::get('/blog', [\App\Http\Controllers\BlogController::class, 'index'])->name('blog');
+Route::get('/gift', [\App\Http\Controllers\GiftController::class, 'index'])->name('gift');

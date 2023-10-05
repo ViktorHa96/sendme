@@ -81,16 +81,10 @@
             <h1>Vyplň adresné údaje a objednaj, o zvyšok sa postaráme my.</h1>
         </div>
     </div>
-
-    <div class="flex place-items-center">
-        <Link class="flex place-self-center text-xl py-2 px-4 mt-10 bg-[#ff948f] rounded-md text-white border-b-4 border-red-500 hover:border-transparent hover:bg-[#f9675f] duration-100" :href="route('instruction')">Čítaj viac</Link>
-    </div>
 </div>
 </template>
 
 <script setup lang="ts">
-import { Link } from '@inertiajs/vue3';
-import route from 'ziggy-js';
 
 </script>
 

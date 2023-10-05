@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="flex place-items-center mb-10">
-        <Link class="flex place-self-center text-xl py-2 px-4 mb-10 bg-[#ff948f] rounded-md text-white border-b-4 border-red-500 hover:border-transparent hover:bg-[#f9675f] duration-100" :href="route('instruction')">Pozrieť viac</Link>
+        <Link class="flex place-self-center text-xl py-2 px-4 mb-10 bg-[#ff948f] rounded-md text-white border-b-4 border-red-500 hover:border-transparent hover:bg-[#f9675f] duration-100" :href="route('gallery')">Pozrieť viac</Link>
     </div>
    </div>
 </template>
