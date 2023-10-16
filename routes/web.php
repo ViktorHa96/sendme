@@ -25,3 +25,4 @@ Route::get('/register', [\App\Http\Controllers\UserController::class, 'indexRegi
 Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index'])->name('gallery');
 Route::get('/blog', [\App\Http\Controllers\BlogController::class, 'index'])->name('blog');
 Route::get('/gift', [\App\Http\Controllers\GiftController::class, 'index'])->name('gift');
+Route::get('/gift/{category}', [\App\Http\Controllers\GiftSubController::class, 'index'])->name('gift.category');
