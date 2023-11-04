@@ -1,11 +1,11 @@
 <template>
     <Head title="Úvod"/>
         <div class="fixed z-10 w-full h-full top-0 left-0 flex flex-row">
-        <img class="w-full object-cover" src="../../images/Blog/sectionBg8-transformed-small.jpeg" alt="">
+        <img class="w-full object-cover" src="../../images/Blog/sectionBg9-transformed.jpeg" alt="">
     </div>
 
     <AppLayout>
-        <div class="specify-font relative z-20 main-background flex flex-col gap-10 lg:gap-0 lg:flex-row w-full items-center p-6">
+        <div class="specify-font relative z-20 main-background flex flex-col gap-10 lg:gap-0 lg:flex-row w-full place-items-center justify-center p-6">
             <div class="w-full lg:w-1/2  mx-auto text-center flex lg:flex-col justify-center lg:items-center">
                 <img class="w-1/2 lg:w-full lg:mx-auto lg:mt-0" src="../../images/Pigeons/morePigeons4.png" alt="">
             </div>

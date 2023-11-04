@@ -3,7 +3,7 @@
     <div>
         <h2 class="text-4xl my-10">Ako na to</h2>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 justify-center h-full gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 justify-center h-full gap-8 px-4">
         <div class="flex flex-col place-items-center mx-auto">
             <div class="p-8 rounded-full bg-cyan-400 mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-click" width="46" height="46" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -19,6 +19,19 @@
             <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">1.</h1>
             <h1>Klikni na vytvoriť poštu</h1>
         </div>
+
+        <div class="flex flex-col place-items-center mx-auto">
+            <div class="p-8 rounded-full bg-cyan-400 mb-6">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-horizontal" width="46" height="46" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M16 5v4a1 1 0 0 0 1 1h4"></path>
+                <path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-7l-5 -5h-11a2 2 0 0 0 -2 2z"></path>
+                </svg>
+            </div>
+            <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">2.</h1>
+            <h1>Vyber si veľkosť a stýl papiera</h1>
+        </div>
+
         <div class="flex flex-col place-items-center mx-auto">
             <div class="p-8 rounded-full bg-cyan-400 mb-6">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book-upload" width="46" height="46" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -29,7 +42,7 @@
                     <path d="M18 13v9"></path>
                 </svg>
             </div>
-            <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">2.</h1>
+            <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">3.</h1>
             <h1>Vyber si zo stoviek návrhov dizajnov alebo nahraj svoj.</h1>
         </div>
         <div class="flex flex-col place-items-center mx-auto">
@@ -41,7 +54,7 @@
                     <path d="M18 19h-13a2 2 0 1 1 0 -4h4a2 2 0 1 0 0 -4h-3"></path>
                 </svg>
             </div>
-            <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">3.</h1>
+            <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">4.</h1>
             <h1 class="w-full">Vyber si zo stoviek textových veršov alebo si vytvor svoj.</h1>
         </div>
         <div class="flex flex-col place-items-center mx-auto">
@@ -62,7 +75,7 @@
                     <path d="M20 17l0 3"></path>
                 </svg>
             </div>
-            <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">4.</h1>
+            <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">5.</h1>
             <h1>Vyber si doplnky ku pošte ako QR kód na video, voňavý papier a unikátne darčeky.</h1>
         </div>
         <div class="flex flex-col place-items-center mx-auto">
@@ -77,7 +90,7 @@
                     <path d="M21 16l-5 3l5 2"></path>
                 </svg>
             </div>
-            <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">5.</h1>
+            <h1 class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2">6.</h1>
             <h1>Vyplň adresné údaje a objednaj, o zvyšok sa postaráme my.</h1>
         </div>
     </div>

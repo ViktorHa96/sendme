@@ -17,11 +17,11 @@
           <fieldset class="flex w-full">
             <input
               type="email"
-              class="xl:px-3 xl:py-2 border-0 text-sm flex-grow"
+              class="xl:px-3 xl:py-2 border-0 text-sm flex-grow focus:border-transparent focus:ring-0"
               placeholder="Tvoja e-mail adresa"
               aria-label="Your email address"
               aria-required="true" />
-            <button class="specify-font text-white bg-[#F1592A] xl:px-3 xl:py-2 w-1/4">Odoberaj</button>
+            <button class="specify-font text-white bg-[#F1592A] xl:px-3 xl:py-2 w-1/4 hover:bg-[#eb7653] duration-100">Odoberaj</button>
           </fieldset>
         </form>
       </section>
