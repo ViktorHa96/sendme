@@ -1,42 +1,42 @@
-version: '3'
+version: "3"
 services:
     laravel.test:
         build:
             context: ./sail/runtimes/8.2
             dockerfile: Dockerfile
             args:
-                WWWGROUP: '1000'
+                WWWGROUP: "1000"
         image: sail-8.2/app
         extra_hosts:
-            - 'host.docker.internal:host-gateway'
+            - "host.docker.internal:host-gateway"
         ports:
-            - '8080:80'
-            - '5173:5173'
+            - "8080:80"
+            - "5173:5173"
         environment:
-            WWWUSER: '1000'
+            WWWUSER: "1000"
             LARAVEL_SAIL: 1
-            XDEBUG_MODE: 'off'
-            XDEBUG_CONFIG: 'client_host=host.docker.internal'
+            XDEBUG_MODE: "off"
+            XDEBUG_CONFIG: "client_host=host.docker.internal"
         volumes:
-            - '../:/var/www/html'
+            - "../:/var/www/html"
         networks:
             - sail
         depends_on:
             - mariadb
     mariadb:
-        image: 'mariadb:10'
+        image: "mariadb:10"
         ports:
-            - '3307:3306'
+            - "3307:3306"
         environment:
-            MYSQL_ROOT_PASSWORD: '${DB_PASSWORD}'
+            MYSQL_ROOT_PASSWORD: "${DB_PASSWORD}"
             MYSQL_ROOT_HOST: "%"
-            MYSQL_DATABASE: '${DB_DATABASE}'
-            MYSQL_USER: '${DB_USERNAME}'
-            MYSQL_PASSWORD: '${DB_PASSWORD}'
-            MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
+            MYSQL_DATABASE: "${DB_DATABASE}"
+            MYSQL_USER: "${DB_USERNAME}"
+            MYSQL_PASSWORD: "${DB_PASSWORD}"
+            MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
         volumes:
-            - 'sail-mariadb:/var/lib/mysql'
-            - './sail/database/mysql/create-testing-database.sh:/docker-entrypoint-initdb.d/10-create-testing-database.sh'
+            - "sail-mariadb:/var/lib/mysql"
+            - "./sail/database/mysql/create-testing-database.sh:/docker-entrypoint-initdb.d/10-create-testing-database.sh"
         networks:
             - sail
         healthcheck:
@@ -44,7 +44,7 @@ services:
                 - CMD
                 - mysqladmin
                 - ping
-                - '-ppassword'
+                - "-ppassword"
             retries: 3
             timeout: 5s
 networks:
