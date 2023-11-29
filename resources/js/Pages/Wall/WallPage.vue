@@ -3,7 +3,7 @@
     <div class="fixed z-10 w-full h-full top-0 left-0 flex flex-row">
         <img
             class="w-full object-cover"
-            src="../../images/Blog/sectionBg9-transformed.jpeg"
+            src="../../images/Blog/city-bg.jpg"
             alt=""
         />
     </div>

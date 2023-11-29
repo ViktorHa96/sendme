@@ -7,10 +7,10 @@
         >
             Z nášho blogu
         </h2>
-        <div class="w-full mx-auto flex place-items-center justify-center">
+        <div class="max-w-7xl mx-auto flex place-items-center justify-center">
             <Carousel :items-to-show="1" :wrapAround="true">
                 <Slide v-for="item in items" :key="item.id">
-                    <div class="carousel__item w-[80%] md:w-1/2 group">
+                    <div class="carousel__item w-[80%] md:w-1/2 group px-6">
                         <Link
                             href="/"
                             class="flex flex-col text-sm lg:text-base w-full gap-4 py-2 px-2 bg-slate-100 rounded-md shadow-lg shadow-black"
@@ -40,16 +40,16 @@
                 <template #addons>
                     <navigation>
                         <template #next>
-                            <div class="carousel__next">
+                            <div id="carousel-buttons" class="carousel__next">
                                 <NextIcon
-                                    class="text-white hover:text-gray-700 hover:translate-x-0.5 duration-100"
+                                    class="text-white hover:text-gray-200 hover:translate-x-0.5 duration-100"
                                 />
                             </div>
                         </template>
                         <template #prev>
-                            <div class="carousel__prev">
+                            <div id="carousel-buttons" class="carousel__prev">
                                 <PrevIcon
-                                    class="text-white hover:text-gray-700 hover:-translate-x-0.5 duration-100"
+                                    class="text-white hover:text-gray-200 hover:-translate-x-0.5 duration-100"
                                 />
                             </div>
                         </template>
@@ -110,11 +110,20 @@ const items = ref([
 
 .carousel__prev,
 .carousel__next {
-    height: 40px;
-    width: 40px;
-    margin: 0 16px;
+    margin: 0;
+    padding: 0;
+    height: 32px;
+    width: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#carousel-buttons {
+    margin: 0;
+}
+
+button {
+    margin: 0;
 }
 </style>
