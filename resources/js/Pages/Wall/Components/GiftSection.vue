@@ -158,8 +158,6 @@ const items = ref([
     );
     width: 100%;
     height: auto;
-    border-top-left-radius: 6rem;
-    border-top-right-radius: 6rem;
 }
 
 .carousel__prev,

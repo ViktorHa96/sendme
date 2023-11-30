@@ -66,7 +66,5 @@ import { Link } from "@inertiajs/vue3";
     );
     width: 100%;
     height: auto;
-    border-bottom-left-radius: 6rem;
-    border-bottom-right-radius: 6rem;
 }
 </style>

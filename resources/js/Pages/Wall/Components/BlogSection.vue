@@ -1,16 +1,16 @@
 <template>
     <div
-        class="relative z-20 w-full text-center specify-font blog-background py-20"
+        class="relative z-20 w-full text-center specify-font blog-background py-14"
     >
         <h2
             class="flex w-fit mx-auto specify-font uppercase text-2xl font-bold text-center px-8 py-2 bg-cyan-100 rounded-full border-2 border-black"
         >
             Z nášho blogu
         </h2>
-        <div class="max-w-7xl mx-auto flex place-items-center justify-center">
+        <div class="max-w-4xl mx-auto flex place-items-center justify-center">
             <Carousel :items-to-show="1" :wrapAround="true">
                 <Slide v-for="item in items" :key="item.id">
-                    <div class="carousel__item w-[80%] md:w-1/2 group px-6">
+                    <div class="carousel__item w-[80%] md:w-3/4 my-4 group px-6">
                         <Link
                             href="/"
                             class="flex flex-col text-sm lg:text-base w-full gap-4 py-2 px-2 bg-slate-100 rounded-md shadow-lg shadow-black"
@@ -27,10 +27,10 @@
                                 <h2
                                     class="hidden center-div z-30 top-0 left-0 text-white text-2xl font-bold group-hover:flex justify-center place-items-center"
                                 >
-                                    Zobraziť
+                                    Prečítať
                                 </h2>
                             </div>
-                            <p>
+                            <p class="line-clamp-3 text-sm">
                                 {{ item.title }}
                             </p>
                         </Link>
