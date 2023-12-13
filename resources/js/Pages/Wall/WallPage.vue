@@ -43,7 +43,7 @@
             </div>
         </div>
         <HowToSection />
-        <GallerySection />
+        <CategorySection />
         <BlogSection />
         <GiftSection />
     </AppLayout>
@@ -53,7 +53,7 @@
 import { Head, Link } from "@inertiajs/vue3";
 import AppLayout from "../../Layouts/AppLayout.vue";
 import HowToSection from "./Components/HowToSection.vue";
-import GallerySection from "./Components/GallerySection.vue";
+import CategorySection from "./Components/CategorySection.vue";
 import BlogSection from "./Components/BlogSection.vue";
 import GiftSection from "./Components/GiftSection.vue";
 import NewsSection from "./Components/NewsSection.vue";

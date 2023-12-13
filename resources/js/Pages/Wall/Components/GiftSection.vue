@@ -8,14 +8,12 @@
             >
                 Darčeky a doplnky
             </h2>
+
         </div>
-        <Carousel
-            :wrap-around="true"
-            snap-align="start"
-            :breakpoints="breakpoints"
-        >
-            <Slide v-for="item in items" :key="item.id" class="px-16">
-                <div class="carousel__item">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+            <div v-for="item in items" :key="item.id" class="">
+                <div class="px-16 ">
                     <Link
                         :href="route('gift.category', item.title)"
                         class="flex flex-col place-items-center gap-4 group"
@@ -27,7 +25,7 @@
                                 class="hidden bg-black/60 rounded-md absolute z-20 top-0 left-0 w-full h-full group-hover:flex justify-center"
                             ></div>
                             <img
-                                class="rounded-full group-hover:scale-105 duration-150"
+                                class=" max-h-44 w-auto rounded-full group-hover:scale-105 duration-150"
                                 :src="item.image"
                                 alt=""
                             />
@@ -45,30 +43,7 @@
                         </h2>
                     </Link>
                 </div>
-            </Slide>
-
-            <template #addons>
-                <navigation>
-                    <template #next>
-                        <div class="carousel__next">
-                            <NextIcon
-                                class="text-black hover:text-gray-700 hover:translate-x-0.5 duration-100"
-                            />
-                        </div>
-                    </template>
-                    <template #prev>
-                        <div class="carousel__prev">
-                            <PrevIcon
-                                class="text-black hover:text-gray-700 hover:-translate-x-0.5 duration-100"
-                            />
-                        </div>
-                    </template>
-                </navigation>
-            </template>
-        </Carousel>
-
-        <div>
-            <button></button>
+            </div>
         </div>
     </div>
 </template>

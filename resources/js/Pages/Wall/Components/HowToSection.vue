@@ -6,7 +6,7 @@
             <h2 class="text-4xl my-10">Ako na to</h2>
         </div>
         <div
-            class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 justify-center h-full gap-8 px-4"
+            class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 place-items-center mx-auto justify-center h-full gap-8 px-4"
         >
             <div class="flex flex-col place-items-center mx-auto">
                 <div class="p-8 rounded-full bg-cyan-400 mb-6">
