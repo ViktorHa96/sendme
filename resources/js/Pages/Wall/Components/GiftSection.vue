@@ -4,7 +4,7 @@
     >
         <div>
             <h2
-                class="flex w-fit mx-auto specify-font uppercase text-2xl font-bold text-center px-8 py-2 bg-cyan-100 rounded-full border-2 border-black my-10"
+                class="flex w-fit mx-auto specify-font uppercase text-2xl font-bold text-center my-10"
             >
                 Darčeky a doplnky
             </h2>
@@ -19,13 +19,13 @@
                         class="flex flex-col place-items-center gap-4 group"
                     >
                         <div
-                            class="relative rounded-full overflow-hidden border-4 border-black/60"
+                            class="relative overflow-hidden rounded-md border-4 border-[#34495e]"
                         >
                             <div
-                                class="hidden bg-black/60 rounded-md absolute z-20 top-0 left-0 w-full h-full group-hover:flex justify-center"
+                                class="hidden bg-black/60 absolute z-20 top-0 left-0 w-full h-full group-hover:flex justify-center"
                             ></div>
                             <img
-                                class=" max-h-44 w-auto rounded-full group-hover:scale-105 duration-150"
+                                class=" max-h-44 w-auto group-hover:scale-105 duration-150"
                                 :src="item.image"
                                 alt=""
                             />
@@ -37,7 +37,7 @@
                         </div>
 
                         <h2
-                            class="uppercase rounded-full px-3 pt-1 pb-0.5 group-hover:bg-cyan-100 group-hover:shadow-md group-hover:shadow-slate-300"
+                            class="uppercase px-3 pt-1 pb-0.5 border-b-2 border-transparent group-hover:border-[#f39c12] duration-100"
                         >
                             {{ item.title }}
                         </h2>
@@ -124,13 +124,7 @@ const items = ref([
 
 <style scoped>
 .gift-background {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(
-        180deg,
-        rgb(62, 181, 255) 4%,
-        rgb(146, 207, 245) 49%,
-        rgb(62, 181, 255) 100%
-    );
+    background-color: rgba(255, 255, 255, 0.928);
     width: 100%;
     height: auto;
 }

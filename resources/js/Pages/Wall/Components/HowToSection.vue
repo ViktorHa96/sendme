@@ -9,7 +9,7 @@
             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 place-items-center mx-auto justify-center h-full gap-8 px-4"
         >
             <div class="flex flex-col place-items-center mx-auto">
-                <div class="p-8 rounded-full bg-cyan-400 mb-6">
+                <div class="p-8 rounded-full bg-[#34495e] mb-6">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="icon icon-tabler icon-tabler-click"
@@ -36,7 +36,7 @@
                     </svg>
                 </div>
                 <h1
-                    class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2"
+                    class="font-bold text-2xl border-b-4 border-[#f39c12] leading-tight rounded-full mb-2"
                 >
                     1.
                 </h1>
@@ -44,7 +44,7 @@
             </div>
 
             <div class="flex flex-col place-items-center mx-auto">
-                <div class="p-8 rounded-full bg-cyan-400 mb-6">
+                <div class="p-8 rounded-full bg-[#34495e] mb-6">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="icon icon-tabler icon-tabler-file-horizontal"
@@ -69,7 +69,7 @@
                     </svg>
                 </div>
                 <h1
-                    class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2"
+                    class="font-bold text-2xl border-b-4 border-[#f39c12] leading-tight rounded-full mb-2"
                 >
                     2.
                 </h1>
@@ -77,7 +77,7 @@
             </div>
 
             <div class="flex flex-col place-items-center mx-auto">
-                <div class="p-8 rounded-full bg-cyan-400 mb-6">
+                <div class="p-8 rounded-full bg-[#34495e] mb-6">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="icon icon-tabler icon-tabler-book-upload"
@@ -104,14 +104,14 @@
                     </svg>
                 </div>
                 <h1
-                    class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2"
+                    class="font-bold text-2xl border-b-4 border-[#f39c12] leading-tight rounded-full mb-2"
                 >
                     3.
                 </h1>
                 <h1>Vyber si zo stoviek návrhov dizajnov alebo nahraj svoj.</h1>
             </div>
             <div class="flex flex-col place-items-center mx-auto">
-                <div class="p-8 rounded-full bg-cyan-400 mb-6">
+                <div class="p-8 rounded-full bg-[#34495e] mb-6">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="icon icon-tabler icon-tabler-writing"
@@ -139,7 +139,7 @@
                     </svg>
                 </div>
                 <h1
-                    class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2"
+                    class="font-bold text-2xl border-b-4 border-[#f39c12] leading-tight rounded-full mb-2"
                 >
                     4.
                 </h1>
@@ -148,7 +148,7 @@
                 </h1>
             </div>
             <div class="flex flex-col place-items-center mx-auto">
-                <div class="p-8 rounded-full bg-cyan-400 mb-6">
+                <div class="p-8 rounded-full bg-[#34495e] mb-6">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="icon icon-tabler icon-tabler-qrcode"
@@ -187,7 +187,7 @@
                     </svg>
                 </div>
                 <h1
-                    class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2"
+                    class="font-bold text-2xl border-b-4 border-[#f39c12] leading-tight rounded-full mb-2"
                 >
                     5.
                 </h1>
@@ -197,7 +197,7 @@
                 </h1>
             </div>
             <div class="flex flex-col place-items-center mx-auto">
-                <div class="p-8 rounded-full bg-cyan-400 mb-6">
+                <div class="p-8 rounded-full bg-[#34495e] mb-6">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="icon icon-tabler icon-tabler-home-link"
@@ -234,7 +234,7 @@
                     </svg>
                 </div>
                 <h1
-                    class="font-bold text-2xl border-b-4 border-[#ff948f] leading-tight rounded-full mb-2"
+                    class="font-bold text-2xl border-b-4 border-[#f39c12] leading-tight rounded-full mb-2"
                 >
                     6.
                 </h1>

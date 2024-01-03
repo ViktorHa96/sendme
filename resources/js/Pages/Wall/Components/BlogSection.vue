@@ -3,7 +3,7 @@
         class="relative z-20 w-full text-center specify-font blog-background py-14"
     >
         <h2
-            class="flex w-fit mx-auto specify-font uppercase text-2xl font-bold text-center px-8 py-2 bg-cyan-100 rounded-full border-2 border-black"
+            class="flex w-fit mx-auto text-white specify-font uppercase text-2xl font-bold text-center"
         >
             Z nášho blogu
         </h2>

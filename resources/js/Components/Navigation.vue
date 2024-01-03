@@ -1,6 +1,6 @@
 <template>
     <div
-        class="specify-font relative z-50 w-full px-6 py-2 shadow-lg bg-[#005C96] text-gray-100 shadow-black flex flex-row justify-between place-items-center"
+        class="specify-font relative z-50 w-full px-6 py-2 shadow-lg bg-[#2c3e50] text-gray-100 shadow-black flex flex-row justify-between place-items-center"
     >
         <div class="flex place-self-center">
             <Link :href="route('wall')"
@@ -39,7 +39,7 @@
                     >Darčeky</Link
                 >
                 <Link
-                    class="py-1 px-3 bg-[#ff948f] rounded-md text-white border-b-4 border-red-500 hover:border-b-0 hover:bg-[#f9675f] duration-100"
+                    class="py-1 px-3 bg-[#f39c12] rounded-md text-white border-b-4 border-[#a37935] hover:border-b-0 hover:bg-[#feba4d] duration-75"
                     href=""
                     >Vytvoriť poštu</Link
                 >
@@ -53,7 +53,7 @@
                     >Prihlásenie</Link
                 >
                 <Link
-                    class="py-1 px-3 bg-[#ff948f] rounded-md text-white border-b-4 border-red-500 hover:border-b-0 hover:bg-[#f9675f] duration-100"
+                    class="py-1 px-3 bg-[#f39c12] rounded-md text-white border-b-4 border-[#a37935] hover:border-b-0 hover:bg-[#feba4d] duration-75"
                     :href="route('register')"
                     >Registrácia</Link
                 >
@@ -85,7 +85,7 @@
                     >Darčeky</Link
                 >
                 <Link
-                    class="py-1 px-3 bg-[#ff948f] rounded-md text-white hover:bg-[#f9675f] duration-100"
+                    class="py-1 px-3 bg-[#f39c12] rounded-md text-white hover:bg-[#feba4d] duration-100"
                     href=""
                     >Vytvoriť poštu</Link
                 >
@@ -99,7 +99,7 @@
                     >Prihlásenie</Link
                 >
                 <Link
-                    class="py-1 px-3 bg-[#ff948f] rounded-md text-white hover:bg-[#f9675f] duration-100"
+                    class="py-1 px-3 bg-[#f39c12] rounded-md text-white hover:bg-[#feba4d] duration-100"
                     :href="route('register')"
                     >Registrácia</Link
                 >

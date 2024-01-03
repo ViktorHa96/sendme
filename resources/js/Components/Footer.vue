@@ -1,5 +1,5 @@
 <template>
-    <div class="specify-font relative z-20 bg-[#005C96] text-gray-100 flex flex-row">
+    <div class="specify-font relative z-20 bg-[#2c3e50] text-gray-100 flex flex-row">
         <div class="container mx-auto py-20 px-6 flex flex-col xl:flex-row">
             <section class="xl:w-1/2">
                 <h3 class="uppercase font-bold mb-4">Kontaktuje nás</h3>
