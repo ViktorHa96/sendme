@@ -1,10 +1,10 @@
 <template>
     <div
-        class="w-full specify-font relative z-20 gift-background flex flex-col text-center place-items-center pb-10"
+        class="w-full relative z-20 gift-background flex flex-col text-center place-items-center pb-10"
     >
         <div>
             <h2
-                class="flex w-fit mx-auto specify-font uppercase text-2xl font-bold text-center my-10"
+                class="flex w-fit mx-auto font-heading uppercase text-2xl font-bold text-center my-10"
             >
                 Darčeky a doplnky
             </h2>

@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
-    font-family: "Fabada";
-    src: url("../js/fonts/Fabada-regular.ttf");
+    font-family: "Sui Generis";
+    src: url("../js/fonts/sui generis rg.ttf");
     /* Môžete pridať ďalšie vlastnosti, ako napríklad font-weight, font-style atď. */
 }
 
+@font-face {
+    font-family: "Natural Precision";
+    src: url("../js/fonts/Natural Precision.ttf");
+    /* Môžete pridať ďalšie vlastnosti, ako napríklad font-weight, font-style atď. */
+}
 .specify-font {
     font-family: Fabada;
     font-weight: 600;
@@ -23,4 +39,13 @@
 .centered-axis-y {
     top: 50%;
     transform: translate(0, -50%);
+}
+
+.font-primary {
+    font-family: 'Noto Serif', serif;
+}
+
+.font-heading {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
 }

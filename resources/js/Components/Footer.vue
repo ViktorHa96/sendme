@@ -1,5 +1,5 @@
 <template>
-    <div class="specify-font relative z-20 bg-[#2c3e50] text-gray-100 flex flex-row">
+    <div class="relative z-20 bg-[#2c3e50] text-gray-100 flex flex-row">
         <div class="container mx-auto py-20 px-6 flex flex-col xl:flex-row">
             <section class="xl:w-1/2">
                 <h3 class="uppercase font-bold mb-4">Kontaktuje nás</h3>
@@ -8,31 +8,12 @@
                     California, US<br />
                     Telefón: 800 123 3456<br />
                     E-mail:
-                    <a class="text-[#F1592A]" href="mailto:info@seeds.com"
+                    <a class="text-[#f39c12] hover:text-[#feba4d]" href="mailto:info@seeds.com"
                         >info@seeds.com</a
                     >
                     <br />
-                    Skype: <a class="text-[#F1592A]" href="#">seeds</a>
+                    Skype: <a class="text-[#f39c12] hover:text-[#feba4d]" href="#">seeds</a>
                 </div>
-                <h2 class="specify-font font-heading text-3xl mb-4">
-                    Nepremeškajte žiadne ponuky!
-                </h2>
-                <form class="xl:w-2/3">
-                    <fieldset class="flex w-full">
-                        <input
-                            type="email"
-                            class="xl:px-3 xl:py-2 border-0 text-sm flex-grow focus:border-transparent focus:ring-0"
-                            placeholder="Tvoja e-mail adresa"
-                            aria-label="Your email address"
-                            aria-required="true"
-                        />
-                        <button
-                            class="specify-font text-white bg-[#F1592A] xl:px-3 xl:py-2 w-1/4 hover:bg-[#eb7653] duration-100"
-                        >
-                            Odoberaj
-                        </button>
-                    </fieldset>
-                </form>
             </section>
             <section class="xl:w-1/2 mt-4 xl:mt-0">
                 <ul class="flex flex-col mt-4 xl:flex-row xl:space-x-2 md:mt-0">

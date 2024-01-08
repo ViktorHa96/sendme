@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full main-element">
+    <div class="w-full font-primary">
         <Navigation />
         <slot> </slot>
         <Footer />
@@ -11,9 +11,3 @@ import { Head } from "@inertiajs/vue3";
 import Navigation from "@/Components/Navigation.vue";
 import Footer from "@/Components/Footer.vue";
 </script>
-
-<style scoped>
-.main-element {
-    font-family: "Courier New", Courier, monospace;
-}
-</style>

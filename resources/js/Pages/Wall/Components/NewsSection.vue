@@ -1,6 +1,6 @@
 <template>
     <div
-        class="relative specify-font news-background flex flex-col gap-4 text-center place-items-center py-10"
+        class="relative news-background flex flex-col gap-4 text-center place-items-center py-10"
     >
         <div>
             <h2

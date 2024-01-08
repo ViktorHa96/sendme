@@ -10,7 +10,7 @@
 
     <AppLayout>
         <div
-            class="specify-font relative z-20 main-background flex flex-col gap-10 lg:gap-0 lg:flex-row w-full text-white justify-center p-6"
+            class="relative z-20 main-background flex flex-col gap-10 lg:gap-0 lg:flex-row w-full text-white justify-center p-6"
         >
             <div
                 class="w-full lg:w-1/2 mx-auto text-center flex lg:flex-col justify-center lg:items-center"
@@ -26,7 +26,7 @@
             >
                 <div class="flex flex-col justify-between gap-10">
                     <NewsCarousel/>
-                    <h1 class="text-xl lg:text-2xl">
+                    <h1 class="text-xl lg:text-2xl font-heading">
                         Emócie v liste nesené na krídlach holuba.
                     </h1>
                     <img
@@ -44,6 +44,7 @@
         </div>
         <HowToSection />
         <CategorySection />
+        <Newsletter/>
         <BlogSection />
         <GiftSection />
         <WriteUs/>
@@ -60,6 +61,7 @@ import GiftSection from "./Components/GiftSection.vue";
 import NewsSection from "./Components/NewsSection.vue";
 import NewsCarousel from "@/Pages/Wall/Components/Components/NewsCarousel.vue";
 import WriteUs from "./Components/WriteUs.vue";
+import Newsletter from "./Components/Newsletter.vue";
 </script>
 
 <style scoped>

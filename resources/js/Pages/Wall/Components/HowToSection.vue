@@ -1,9 +1,9 @@
 <template>
     <div
-        class="specify-font relative z-20 howto-background flex flex-col text-center place-items-center pb-20"
+        class="relative z-20 howto-background flex flex-col text-center place-items-center pb-20"
     >
         <div>
-            <h2 class="text-4xl my-10">Ako na to</h2>
+            <h2 class="text-4xl my-10 font-heading">Ako na to</h2>
         </div>
         <div
             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 place-items-center mx-auto justify-center h-full gap-8 px-4"

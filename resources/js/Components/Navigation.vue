@@ -1,6 +1,6 @@
 <template>
     <div
-        class="specify-font relative z-50 w-full px-6 py-2 shadow-lg bg-[#2c3e50] text-gray-100 shadow-black flex flex-row justify-between place-items-center"
+        class="relative z-50 w-full px-6 shadow-lg bg-[#2c3e50] text-gray-100 shadow-black flex flex-row justify-between place-items-center"
     >
         <div class="flex place-self-center">
             <Link :href="route('wall')"
@@ -19,28 +19,28 @@
         <div class="hidden lg:flex flex-row justify-between place-items-center">
             <div class="flex place-items-center gap-2 pr-8">
                 <Link
-                    class="border-2 border-transparent px-3 py-1 hover:bg-[#034067] duration-150 hover:border-[#012942] rounded-md"
+                    class="py-4 px-3 border-b-2 border-transparent hover:border-[#f39c12] duration-150"
                     :href="route('wall')"
                     >Úvod</Link
                 >
                 <Link
-                    class="border-2 border-transparent px-3 py-1 hover:bg-[#034067] duration-150 hover:border-[#012942] rounded-md"
+                    class="py-4 px-3 border-b-2 border-transparent hover:border-[#f39c12] duration-150"
                     :href="route('gallery')"
                     >Galéria</Link
                 >
                 <Link
-                    class="border-2 border-transparent px-3 py-1 hover:bg-[#034067] duration-150 hover:border-[#012942] rounded-md"
+                    class="py-4 px-3 border-b-2 border-transparent hover:border-[#f39c12] duration-150"
                     :href="route('blog')"
                     >Blog</Link
                 >
                 <Link
-                    class="border-2 border-transparent px-3 py-1 hover:bg-[#034067] duration-150 hover:border-[#012942] rounded-md"
+                    class="py-4 px-3 border-b-2 border-transparent hover:border-[#f39c12] duration-150"
                     :href="route('gift')"
                     >Darčeky</Link
                 >
                 <Link
                     class="py-1 px-3 bg-[#f39c12] rounded-md text-white border-b-4 border-[#a37935] hover:border-b-0 hover:bg-[#feba4d] duration-75"
-                    href=""
+                    :href="route('create.post')"
                     >Vytvoriť poštu</Link
                 >
             </div>
@@ -48,7 +48,7 @@
                 class="flex place-items-center gap-2 pl-4 border-l-2 border-black/20"
             >
                 <Link
-                    class="border-2 border-transparent px-3 py-1 hover:bg-[#034067] duration-150 hover:border-[#012942] rounded-md"
+                    class="py-4 px-3 border-b-2 border-transparent hover:border-[#f39c12] duration-150"
                     :href="route('login')"
                     >Prihlásenie</Link
                 >
@@ -61,26 +61,26 @@
         </div>
         <div
             v-if="showMenu"
-            class="absolute top-16 bg-cyan-100 right-0 flex flex-col px-2 py-4 shadow-lg shadow-black"
+            class="absolute top-12 bg-[#2c3e50] text-gray-100 right-0 flex flex-col px-2 py-4 shadow-lg shadow-black"
         >
-            <div class="flex flex-col place-items-center pb-4 gap-2">
+            <div class="flex flex-col place-items-center pb-4 gap-3">
                 <Link
-                    class="border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150 hover:border-cyan-300 rounded-md"
+                    class="py-2 px-3 border-b-2 border-transparent hover:border-[#f39c12] duration-150"
                     :href="route('wall')"
                     >Úvod</Link
                 >
                 <Link
-                    class="border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150 hover:border-cyan-300 rounded-md"
+                    class="py-2 px-3 border-b-2 border-transparent hover:border-[#f39c12] duration-150"
                     :href="route('gallery')"
                     >Galéria</Link
                 >
                 <Link
-                    class="border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150 hover:border-cyan-300 rounded-md"
+                    class="py-2 px-3 border-b-2 border-transparent hover:border-[#f39c12] duration-150"
                     :href="route('blog')"
                     >Blog</Link
                 >
                 <Link
-                    class="border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150 hover:border-cyan-300 rounded-md"
+                    class="py-2 px-3 border-b-2 border-transparent hover:border-[#f39c12] duration-150"
                     :href="route('gift')"
                     >Darčeky</Link
                 >
@@ -91,10 +91,10 @@
                 >
             </div>
             <div
-                class="flex flex-col place-items-center gap-2 pt-2 border-t-2 border-black/20"
+                class="flex flex-col place-items-center gap-3 pt-2 border-t-2 border-black/20"
             >
                 <Link
-                    class="border-2 border-transparent px-3 py-1 hover:bg-cyan-200 duration-150 hover:border-cyan-300 rounded-md"
+                    class="py-2 px-3 border-b-2 border-transparent hover:border-[#f39c12] duration-150"
                     :href="route('login')"
                     >Prihlásenie</Link
                 >

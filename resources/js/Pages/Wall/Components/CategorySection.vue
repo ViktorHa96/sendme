@@ -1,9 +1,9 @@
 <template>
     <div
-        class="specify-font relative z-20 gallery-background flex flex-col text-white text-center place-items-center"
+        class="relative z-20 gallery-background flex flex-col text-white text-center place-items-center"
     >
         <div>
-            <h2 class="text-4xl mt-10">Kategórie</h2>
+            <h2 class="text-4xl mt-10 font-heading">Kategórie</h2>
         </div>
         <div
             class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 my-10 h-full place-items-center gap-8"
@@ -112,7 +112,7 @@ import { Link } from "@inertiajs/vue3";
 
 <style scoped>
 .gallery-background {
-    background:  rgb(64, 91, 118);
+    background:  rgba(64, 91, 118, 0.9);
     width: 100%;
     height: auto;
 }
