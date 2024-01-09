@@ -5,7 +5,7 @@
       class="max-w-7xl mx-auto flex flex-col gap-6 justify-center py-16"
     >
       <div class="mx-auto w-full h-auto">
-        <img class="w-full h-auto" src="@/images/Blog/article1.jpeg" alt="" />
+        <img class="max-w-lg mx-auto h-auto" src="@/images/Blog/article1.jpeg" alt="" />
       </div>
 
       <div class="text-3xl font-bold justify-start">
